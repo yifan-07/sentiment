@@ -1,0 +1,36 @@
+#python 
+* bertviz_repo：python套件，視覺化bert自注意力
+* BERT_example.ipynb：bert相關應用，bert判別真假新聞範例
+(範例來源：https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html)
+* BERT_movie.ipynb：bert判別電影情緒(五分類)
+* bert_sentiment.ipynb：bert aclImdb電影評論分類(二分類)
+* NLTK_base.ipynb：斷詞/句、停用字、字根還原、詞性標註
+* sentiment_base：電影情緒判斷，利用詞頻矩陣、tfidf結果進行分群(貝氏分類)
+
+# data
+aclImdb：大量電影評論
+fake-news-pair-classification-challenge：辨識真假新聞集
+kaggle_movie_reviews：電影評論訓練、測試資料
+aclImdb_v1.tar.gz：解壓縮前電影評論資料
+amazon_food_reviews.csv
+cnn_220218.csv
+sentiment.csv
+
+# output
+amazon_food
+    -wordcloud_all.png：所有評論文字雲
+    -wordcloud_neg.png：正向評論文字雲
+    -wordcloud_pos.png：負向評論文字雲
+電影評論
+    -bert_result.csv：電影情緒判別
+    -bert_result1.csv：電影情緒判別，標點符號轉為[SEP]
+    -count_result(1).csv：字詞出現頻率(貝氏分類)
+    -count_result.csv：字詞出現頻率(貝氏分類)
+    -tfidf_result(1).csv：tfidf進行分類(貝氏分類)
+    -tfidf_result.csvt：fidf進行分類(貝氏分類)
+fakenews_pred(1).csv
+fakenews_pred.csv
+test.tsv：真假新聞測試集bert格式
+train.tsv：真假新聞訓練集bert格式
+
+# sentiment 虛擬環境
