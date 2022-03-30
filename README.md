@@ -1,6 +1,12 @@
 # sentiments
 指用自然語言處理、文本挖掘以及計算機語言學等方法來識別和提取原素材中的主觀信息。
 
+## Preprocessing
+1.	大小寫轉換
+2.	詞性標註(pos tagging)
+3.	字根還原(stemming)
+4.	去除停用字(remove stopword)
+
 ## Mathod 
 ### TF-IDF and Categorical algorithm
 1. 計算TFIDF
