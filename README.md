@@ -8,13 +8,13 @@
 4.	去除停用字(remove stopword)
 
 ## Mathod 
-### TF-IDF and Categorical algorithm
+### TF-IDF and Classification algorithm
 1. 計算TFIDF
 TF-IDF分為兩區塊，TF每個詞在文章出現的比例，IDF文章數總合/該自出現的文章篇數後取log
 ![alt text](https://miro.medium.com/max/1262/1*p33SpAy05KWRqxfp8JYx3w.png)
 ![alt text](https://miro.medium.com/max/1248/1*IetKUpVCuh2s3-FRfYPhlw.png)
 2. 選擇分類方法
-### Count and Categorical algorithm
+### Count and Classification algorithm
 1. 扣除停用字後計算詞頻
 2. 選擇分類方法
 
