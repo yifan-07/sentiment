@@ -65,7 +65,7 @@ output：
 1.	Compound: 總體分數，分數範圍介於-1~1之間
 2.	Neg: 負向分數
 3.	Neu: 中性分數
-4.	Pos: 正向分數
+4.	Pos: 正向分數  
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
     
 ## Package
@@ -95,8 +95,19 @@ code：https://www.kaggle.com/shyambhu/sentiment-classification-using-lstm
 * sentiment_base
 data：kaggle_movie_reviews
 
+## Dictionary
+1.	NRC Emotion Lexicon：
+八種情緒分類，詞數14182，正向詞2312，負向詞3324
+2.	Sentiment Lexicon:
+正向詞2006；負向詞4783
+3.	Markovian-Sentiment : 
+詞性、形容詞強弱、正負向標註
+4.	SentiWordNet(python)：
+SentiWordNet assigns scores to WordNet synsets instead of words. In particular, each synset has both a positivity and a negativity score, lying between 0 and 1.
+5.	Wordnet(python)
 
-## source 
+
+## Source 
 ### TFIDF
 https://medium.com/datamixcontent-lab/%E6%96%87%E6%9C%AC%E5%88%86%E6%9E%90%E5%85%A5%E9%96%80-%E6%A6%82%E5%BF%B5%E7%AF%87-%E7%B5%A6%E6%88%91%E4%B8%80%E6%AE%B5%E8%A9%B1-%E6%88%91%E5%91%8A%E8%A8%B4%E4%BD%A0%E9%87%8D%E9%BB%9E%E5%9C%A8%E5%93%AA-%E5%B0%8D%E6%96%87%E6%9C%AC%E9%87%8D%E9%BB%9E%E5%AD%97%E8%A9%9E%E5%8A%A0%E6%AC%8A%E7%9A%84tf-idf%E6%96%B9%E6%B3%95-f6a2790b4991
 ### BERT
