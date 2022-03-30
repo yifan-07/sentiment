@@ -52,7 +52,7 @@ encoder
 
 ### LSTM
 * 核心：透過閘門(gate)進行調控，決定記憶的儲存與使用。
-* 組成： input gate、output gate、memory cell、forget gate
+* 組成： input gate、output gate、memory cell、forget gate  
 範例架構
     * 第一層：embedding
     * 第二層：Bidirectional LSTM
