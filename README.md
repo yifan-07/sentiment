@@ -86,12 +86,14 @@ data：kaggle_movie_reviews
 * bert_based: bert 基本概念 + 真假新聞辨識(base on pytorch)  
 data：WSDM - Fake News Classification  
 code：https://leemeng.tw/attack_on_bert_transfer_learning_in_nlp.html  
-* bert_sentiment： 電影評論(base on tensorflow)  
+* bert_sentiment： 利用bert進行電影評分(base on tensorflow)  
 data：aclImdb_v1  
 code：https://towardsdatascience.com/sentiment-analysis-in-10-minutes-with-bert-and-hugging-face-294e8a04b671  
-* LSTM_sentiment
+* LSTM_sentiment：利用LSTM進行電影評分
 data：aclImdb_v1  
 code：https://www.kaggle.com/shyambhu/sentiment-classification-using-lstm  
+* sentiment_base
+data：kaggle_movie_reviews
 
 
 ## source 
